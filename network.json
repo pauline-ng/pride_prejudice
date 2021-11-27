@@ -1,0 +1,65 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "id": "Mr. Bingley"
+        },
+        {
+            "id": "Mr. Darcy"
+        },
+        {
+            "id": "Lady de Bourgh"
+        },
+        {
+            "id": "Lizzie Lim"
+        },
+        {
+            "id": "Jane Lim"
+        },
+        {
+            "id": "Margaret"
+        },
+        {
+            "id": "Lou"
+        }
+    ],
+    "links": [
+        {
+            "relation": "BFF’",
+            "source": "Mr. Bingley",
+            "target": "Mr. Darcy"
+        },
+        {
+            "relation": "coworker",
+            "source": "Mr. Bingley",
+            "target": "Lou"
+        },
+        {
+            "relation": "aunt / nephew",
+            "source": "Mr. Darcy",
+            "target": "Lady de Bourgh"
+        },
+        {
+            "relation": "sisters",
+            "source": "Lizzie Lim",
+            "target": "Jane Lim"
+        },
+        {
+            "relation": "cousin",
+            "source": "Lizzie Lim",
+            "target": "Margaret"
+        },
+        {
+            "relation": "cousin",
+            "source": "Jane Lim",
+            "target": "Margaret"
+        },
+        {
+            "relation": "just married!",
+            "source": "Margaret",
+            "target": "Lou"
+        }
+    ]
+}
